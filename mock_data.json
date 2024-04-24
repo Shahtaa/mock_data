@@ -1,0 +1,63 @@
+[
+  {
+    "timestamp": "2024-04-24T09:55:08", // Current timestamp
+    "source_ip": "192.168.1.101",
+    "destination_ip": "203.0.113.10",
+    "destination_port": 80,
+    "protocol": "HTTP",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-04-24T08:55:08", // Last hour
+    "source_ip": "10.1.1.5",
+    "destination_ip": "203.0.113.20",
+    "destination_port": 22,
+    "protocol": "SSH",
+    "action": "blocked"
+  },
+  {
+    "timestamp": "2024-04-23T09:55:08", // Last day
+    "source_ip": "192.168.1.102",
+    "destination_ip": "203.0.113.30",
+    "destination_port": 443,
+    "protocol": "HTTPS",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-04-17T09:55:08", // Last week
+    "source_ip": "192.168.1.103",
+    "destination_ip": "203.0.113.40",
+    "destination_port": 21,
+    "protocol": "FTP",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-03-24T09:55:08", // Last month
+    "source_ip": "10.2.2.10",
+    "destination_ip": "203.0.113.50",
+    "destination_port": 445,
+    "protocol": "SMB",
+    "action": "detected",
+    "description": "Possible SMB exploit attempt"
+  },
+  // 50 new data entries randomly generated within the time range
+  // Generate 50 random data points within the specified time range
+  // Example:
+  {
+    "timestamp": "2024-04-24T09:30:00",
+    "source_ip": "192.168.1.106",
+    "destination_ip": "203.0.113.70",
+    "destination_port": 8080,
+    "protocol": "HTTP",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-04-24T08:45:00",
+    "source_ip": "192.168.1.107",
+    "destination_ip": "203.0.113.80",
+    "destination_port": 443,
+    "protocol": "HTTPS",
+    "action": "allowed"
+  },
+  // Add 48 more similar entries...
+]
