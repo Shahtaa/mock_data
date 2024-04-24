@@ -1,0 +1,84 @@
+[
+  {
+    "timestamp": "2024-04-24T09:25:00",
+    "source_ip": "10.0.0.1",
+    "destination_ip": "203.0.113.90",
+    "destination_port": 8080,
+    "protocol": "HTTP",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-04-24T08:35:00",
+    "source_ip": "192.168.1.108",
+    "destination_ip": "203.0.113.100",
+    "destination_port": 443,
+    "protocol": "HTTPS",
+    "action": "blocked"
+  },
+  {
+    "timestamp": "2024-04-24T09:10:00",
+    "source_ip": "192.168.1.109",
+    "destination_ip": "203.0.113.110",
+    "destination_port": 21,
+    "protocol": "FTP",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-04-24T08:50:00",
+    "source_ip": "10.0.0.2",
+    "destination_ip": "203.0.113.120",
+    "destination_port": 22,
+    "protocol": "SSH",
+    "action": "detected",
+    "description": "Possible SSH brute-force attack"
+  },
+  {
+    "timestamp": "2024-04-24T09:40:00",
+    "source_ip": "192.168.1.110",
+    "destination_ip": "203.0.113.130",
+    "destination_port": 443,
+    "protocol": "HTTPS",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-04-24T09:15:00",
+    "source_ip": "10.0.0.3",
+    "destination_ip": "203.0.113.140",
+    "destination_port": 21,
+    "protocol": "FTP",
+    "action": "blocked"
+  },
+  {
+    "timestamp": "2024-04-24T08:20:00",
+    "source_ip": "192.168.1.111",
+    "destination_ip": "203.0.113.150",
+    "destination_port": 3389,
+    "protocol": "RDP",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-04-24T09:50:00",
+    "source_ip": "10.0.0.4",
+    "destination_ip": "203.0.113.160",
+    "destination_port": 80,
+    "protocol": "HTTP",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-04-24T09:05:00",
+    "source_ip": "192.168.1.112",
+    "destination_ip": "203.0.113.170",
+    "destination_port": 443,
+    "protocol": "HTTPS",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-04-24T08:25:00",
+    "source_ip": "10.0.0.5",
+    "destination_ip": "203.0.113.180",
+    "destination_port": 21,
+    "protocol": "FTP",
+    "action": "detected",
+    "description": "FTP login attempt with invalid credentials"
+  }
+]
