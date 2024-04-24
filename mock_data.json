@@ -80,5 +80,46 @@
     "protocol": "FTP",
     "action": "detected",
     "description": "FTP login attempt with invalid credentials"
+  },
+  {
+    "timestamp": "2024-04-24T08:40:00",
+    "source_ip": "192.168.1.113",
+    "destination_ip": "203.0.113.190",
+    "destination_port": 22,
+    "protocol": "SSH",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-04-24T09:20:00",
+    "source_ip": "10.0.0.6",
+    "destination_ip": "203.0.113.200",
+    "destination_port": 443,
+    "protocol": "HTTPS",
+    "action": "blocked"
+  },
+  {
+    "timestamp": "2024-04-24T08:55:00",
+    "source_ip": "192.168.1.114",
+    "destination_ip": "203.0.113.210",
+    "destination_port": 21,
+    "protocol": "FTP",
+    "action": "allowed"
+  },
+  {
+    "timestamp": "2024-04-24T09:45:00",
+    "source_ip": "10.0.0.7",
+    "destination_ip": "203.0.113.220",
+    "destination_port": 3389,
+    "protocol": "RDP",
+    "action": "detected",
+    "description": "RDP connection attempt from suspicious IP"
+  },
+  {
+    "timestamp": "2024-04-24T09:30:00",
+    "source_ip": "192.168.1.115",
+    "destination_ip": "203.0.113.230",
+    "destination_port": 80,
+    "protocol": "HTTP",
+    "action": "allowed"
   }
 ]
